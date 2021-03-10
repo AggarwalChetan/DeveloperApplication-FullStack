@@ -282,6 +282,7 @@
     top: 1434px;
     background: #7C639F;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .welcomeSectionFormSubmitRectangleText {
@@ -296,4 +297,5 @@
     font-size: 24px;
     line-height: 33px;
     color: #FFFFFF;
+    cursor: pointer;
 }

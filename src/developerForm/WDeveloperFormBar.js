@@ -1,6 +1,6 @@
 import { useHistory } from 'react-router-dom';
 import styles from './WS.module.css';
-
+import api from './WSApiClass';
 
 function WelcomeSectionFormSubmitBar() {
 
@@ -13,8 +13,8 @@ function WelcomeSectionFormSubmitBar() {
     return (
         <div>
             <button className={styles.welcomeSectionFormCancelRectangle} onClick={redirectToDevelopers}>Cancel</button>
-            <div className={styles.welcomeSectionFormSubmitRectangle}></div>
-            <div className={styles.welcomeSectionFormSubmitRectangleText}>Submit</div>
+            <button className={styles.welcomeSectionFormSubmitRectangle}></button>
+            <div className={styles.welcomeSectionFormSubmitRectangleText} onClick={api}>Submit</div>
         </div>
     );
 }
