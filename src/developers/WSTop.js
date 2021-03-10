@@ -10,7 +10,7 @@ function WelcomeSectionTop(props){
                Repository
            </div>
            <div className={styles.welcomeLogoFigureBlock}>
-               <img src = {logoFigure}></img>
+               <img src = {logoFigure} alt="LOGO"></img>
            </div>
        </div>
    );
