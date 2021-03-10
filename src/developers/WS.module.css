@@ -1,0 +1,177 @@
+.welcomeTop {
+    position: absolute;
+    width: 1440px;
+    height: 607px;
+    left: 0px;
+    top: 0px;
+    background: #2F2E41;
+}
+
+.welcomeTopFont {
+    position: absolute;
+    width: 835px;
+    height: 88px;
+    left: 100px;
+    top: 200px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 98px;
+    color: #FFFFFF;
+}
+
+.welcomeBodyFont {
+    position: absolute;
+    width: 671px;
+    height: 76px;
+    left: 385px;
+    top: 657px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 76px;
+    color: #3F3D56;
+}
+
+.welcomeBodyDivider {
+    position: absolute;
+    width: 1340px;
+    height: 2px;
+    left: 50px;
+    top: 783px;
+    background: #D0CDE1;
+}
+
+.welcomeBodyDividerBottom {
+    position: absolute;
+    width: 1340px;
+    height: 2px;
+    left: 50px;
+    top: 1887px;
+    background: #D0CDE1;
+}
+
+.welcomeBodyOuterRectangle {
+    position: absolute;
+    width: 821px;
+    height: 82px;
+    left: 310px;
+    top: 835px;
+    background: #D0CDE1;
+    border-radius: 15px;
+}
+
+.welcomeBodyInnerRectangle {
+    position: absolute;
+    width: 709px;
+    height: 62px;
+    left: 328px;
+    top: 845px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.welcomeBodyInnerRectangleFont {
+    position: absolute;
+    width: 392px;
+    height: 20px;
+    left: 356px;
+    top: 859px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3F3D56;
+}
+
+.welcomeBodyBottomFont {
+    position: absolute;
+    width: 695px;
+    height: 61px;
+    left: 375px;
+    top: 1939px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3F3D56;
+}
+
+.welcomeBodyBottomRectangle {
+    position: absolute;
+    width: 456px;
+    height: 82px;
+    left: 486px;
+    top: 2030px;
+    background: #7C639F;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.welcomeBodyBottomRectangleFont {
+    position: absolute;
+    width: 316px;
+    height: 62px;
+    left: 557px;
+    top: 2050px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.welcomeFooterRectangle {
+    position: absolute;
+    width: 1440px;
+    height: 96px;
+    left: 0px;
+    top: 2162px;
+    background: #3F3D56;
+}
+
+.welcomeFotterText {
+    position: absolute;
+    width: 412px;
+    height: 62px;
+    left: 585px;
+    top: 2196px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.welcomeFotterHeartSymbol {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 12.5%;
+    bottom: 11.04%;
+    background: #FFFFFF;
+}
+
+.welcomeLogoFigureBlock {
+    position: absolute;
+    width: 605px;
+    height: 468px;
+    left: 764px;
+    top: 79px;
+}
+
+.welcomeBodySearchButton {
+    position: absolute;
+    left: 12.5%;
+    right: 14.62%;
+    top: 12.5%;
+    bottom: 14.62%;
+    background: #3F3D56;
+}

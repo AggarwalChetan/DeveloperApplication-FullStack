@@ -1,0 +1,75 @@
+.welcomeTopRectangle{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: #2F2E41;
+}
+
+.welcomeTopRectangleLeftText{
+    position: absolute;
+    width: 450px;
+    height: 51px;
+    left: 34px;
+    top: 32px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.welcomeTopRectangleRightText{
+    position: absolute;
+    width: 166px;
+    height: 44px;
+    left: 1250px;
+    top: 32px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.welcomeBodyUpper{
+    position: absolute;
+    width: 1440px;  
+    height: 510px;
+    left: 0px;
+    top: 99px;
+
+    background: #E5E5E5;
+}
+
+.welcomeBodyUpperImage{
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+
+    background: #7C639F;
+}
+
+.welcomeBodyMiddle{
+    position: absolute;
+    width: 487px;
+    height: 76px;
+    left: 477px;
+    top: 659px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 76px;
+}

@@ -1,0 +1,42 @@
+.welcomeBodyRectangle{
+    position: absolute;
+    width: 410px;
+    height: 49px;
+    left: 507px;
+    top: 848px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #3F3D56;
+}
+
+.welcomeBodyBottomRectangle{
+    position: absolute;
+    width: 456px;
+    height: 82px;
+    left: 484px;
+    top: 939px;
+
+    background: #7C639F;
+    border-radius: 15px;
+}
+
+.welcomeBodyBottomRectangleText{
+    position: absolute;
+    width: 316px;
+    height: 62px;
+    left: 555px;
+    top: 959px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #FFFFFF;
+}

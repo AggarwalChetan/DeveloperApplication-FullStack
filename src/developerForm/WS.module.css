@@ -1,0 +1,299 @@
+.welcomeSection {
+    position: absolute;
+    width: 1440px;
+    height: 2258px;
+    left: 0px;
+    top: 0px;
+    background: rgba(196, 196, 196, 0.53);
+}
+
+.welcomeSectionForm {
+    position: absolute;
+    width: 1040px;
+    height: 1200px;
+    left: 200px;
+    top: 333px;
+    background: #FFFFFF;
+}
+
+.welcomeSectionFormText {
+    position: absolute;
+    width: 318px;
+    height: 44px;
+    left: 250px;
+    top: 375px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.welcomeSectionFormTopDivider {
+    position: absolute;
+    width: 980px;
+    height: 2px;
+    left: 230px;
+    top: 460px;
+    background: #D0CDE1;
+}
+
+.welcomeSectionFormBottomDivider {
+    position: absolute;
+    width: 980px;
+    height: 2px;
+    left: 230px;
+    top: 1392px;
+    background: #D0CDE1;
+}
+
+.welcomeSectionFormRectangleGithub {
+    position: absolute;
+    width: 596px;
+    height: 50px;
+    left: 280px;
+    top: 571px;
+    background: #FFFFFF;
+    border: 1px solid #D0CDE1;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.welcomeSectionFormRectangleLinkedIn {
+    position: absolute;
+    width: 596px;
+    height: 50px;
+    left: 280px;
+    top: 704px;
+    background: #FFFFFF;
+    border: 1px solid #D0CDE1;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.welcomeSectionFormRectangleCodeChef {
+    position: absolute;
+    width: 596px;
+    height: 50px;
+    left: 280px;
+    top: 837px;
+    background: #FFFFFF;
+    border: 1px solid #D0CDE1;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.welcomeSectionFormRectangleHackerrank {
+    position: absolute;
+    width: 596px;
+    height: 50px;
+    left: 280px;
+    top: 970px;
+    background: #FFFFFF;
+    border: 1px solid #D0CDE1;
+    box-sizing: border-box;
+    border-radius: 10px;
+    ;
+}
+
+.welcomeSectionFormRectangleTwitter {
+    position: absolute;
+    width: 596px;
+    height: 50px;
+    left: 280px;
+    top: 1105px;
+    background: #FFFFFF;
+    border: 1px solid #D0CDE1;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.welcomeSectionFormRectangleMedium {
+    position: absolute;
+    width: 596px;
+    height: 50px;
+    left: 280px;
+    top: 1238px;
+    background: #FFFFFF;
+    border: 1px solid #D0CDE1;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.welcomeSectionFormRectangleGithubText {
+    position: absolute;
+    width: 85px;
+    height: 33px;
+    left: 322px;
+    top: 518px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.welcomeSectionFormRectangleLinkedInText {
+    position: absolute;
+    width: 92px;
+    height: 33px;
+    left: 329px;
+    top: 651px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.welcomeSectionFormRectangleCodeChefText {
+    position: absolute;
+    width: 103px;
+    height: 33px;
+    left: 320px;
+    top: 784px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.welcomeSectionFormRectangleHackerrankText {
+    position: absolute;
+    width: 125px;
+    height: 33px;
+    left: 320px;
+    top: 920px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.welcomeSectionFormRectangleTwitterText {
+    position: absolute;
+    width: 79px;
+    height: 33px;
+    left: 320px;
+    top: 1050px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.welcomeSectionFormRectangleMediumText {
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 320px;
+    top: 1185px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.welcomeSectionFormRectangleGithubLogo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 280px;
+    top: 520px;
+    background: url(iconfinder_github_317712.png);
+}
+
+.welcomeSectionFormRectangleLinkedInLogo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 282px;
+    top: 653px;
+    background: url(iconfinder_2018_social_media_popular_app_logo_linkedin_3225190.png);
+}
+
+.welcomeSectionFormRectangleCodeChefLogo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 280px;
+    top: 784px;
+    background: url(codechef-1324440139527402917_32.png);
+}
+
+.welcomeSectionFormRectangleHackerrankLogo {
+    position: absolute;
+    left: 19.44%;
+    right: 78.47%;
+    top: 41.46%;
+    bottom: 57.18%;
+    background: url(iconfinder_160_Hackerrank_logo_logos_4373234.png);
+}
+
+.welcomeSectionFormRectangleTwitterLogo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 280px;
+    top: 1051px;
+    background: url(iconfinder_2018_social_media_popular_app_logo_twitter_3225183.png);
+}
+
+.welcomeSectionFormRectangleMediumLogo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 280px;
+    top: 1185px;
+    background: url(iconfinder_Circled_Medium_svg5_5279113.png);
+}
+
+.welcomeSectionFormCancelRectangle {
+    position: absolute;
+    width: 74px;
+    height: 33px;
+    left: 845px;
+    top: 1445px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3F3D56;
+    cursor: pointer;
+}
+
+.welcomeSectionFormSubmitRectangle {
+    position: absolute;
+    width: 175px;
+    height: 60px;
+    left: 1002px;
+    top: 1434px;
+    background: #7C639F;
+    border-radius: 15px;
+}
+
+.welcomeSectionFormSubmitRectangleText {
+    position: absolute;
+    width: 79px;
+    height: 33px;
+    left: 1050px;
+    top: 1448px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
