@@ -5,7 +5,7 @@ function WelcomeSectionMedium(){
         <div>
             <input className={styles.welcomeSectionFormRectangleMedium} type="text"></input>
             <div className={styles.welcomeSectionFormRectangleMediumText}>Medium</div>
-            {/* <div className={styles.welcomeSectionFormRectangleMediumLogo}></div> */}
+            <div className={styles.welcomeSectionFormRectangleMediumLogo}></div>
         </div>
     );
 }

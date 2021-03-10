@@ -178,3 +178,15 @@
     bottom: 14.62%;
     background: #3F3D56;
 }
+
+.welcomeFooterImage {
+    position: absolute;
+    /* width: 20px;
+    height: 18.35px;
+    left: 5000px;
+    top: 2px; */
+    background: #FFFFFF;
+    background-image: url(./favorite-24px.svg);
+    background-repeat: no-repeat;
+    
+}

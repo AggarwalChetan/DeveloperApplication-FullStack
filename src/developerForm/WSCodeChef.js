@@ -5,7 +5,7 @@ function WelcomeSectionCodeChef(){
         <div>
             <input className={styles.welcomeSectionFormRectangleCodeChef} type="text"></input>
             <div className={styles.welcomeSectionFormRectangleCodeChefText}>Codechef </div>
-            {/* <div className={styles.welcomeSectionFormRectangleCodeChefLogo}></div> */}
+            <div className={styles.welcomeSectionFormRectangleCodeChefLogo}></div>
         </div>
     );
 }

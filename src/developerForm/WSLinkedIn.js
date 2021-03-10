@@ -5,7 +5,7 @@ function WelcomeSectionLinkedIn(){
         <div>
             <input className={styles.welcomeSectionFormRectangleLinkedIn} type="text"></input>
             <div className={styles.welcomeSectionFormRectangleLinkedInText}>Linkedin</div>
-            {/* <div className={styles.welcomeSectionFormRectangleLinkedInLogo}></div> */}
+            <div className={styles.welcomeSectionFormRectangleLinkedInLogo}></div>
         </div>
     );
 }

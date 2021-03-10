@@ -211,7 +211,7 @@
     height: 30px;
     left: 280px;
     top: 520px;
-    background: url(iconfinder_github_317712.png);
+    background-image: url(./iconfinder_github_317712\ 2.png);
 }
 
 .welcomeSectionFormRectangleLinkedInLogo {
@@ -220,7 +220,7 @@
     height: 30px;
     left: 282px;
     top: 653px;
-    background: url(iconfinder_2018_social_media_popular_app_logo_linkedin_3225190.png);
+    background-image: url(./iconfinder_2018_social_media_popular_app_logo_linkedin_3225190\ 2.png);
 }
 
 .welcomeSectionFormRectangleCodeChefLogo {
@@ -229,16 +229,16 @@
     height: 30px;
     left: 280px;
     top: 784px;
-    background: url(codechef-1324440139527402917_32.png);
+    background-image: url(./codechef-1324440139527402917_32.png);
 }
 
 .welcomeSectionFormRectangleHackerrankLogo {
     position: absolute;
-    left: 19.44%;
-    right: 78.47%;
-    top: 41.46%;
-    bottom: 57.18%;
-    background: url(iconfinder_160_Hackerrank_logo_logos_4373234.png);
+    width: 30px;
+    height: 30px;
+    left: 280px;
+    top: 918px;
+    background-image: url(./iconfinder_160_Hackerrank_logo_logos_4373234\ 1.png);
 }
 
 .welcomeSectionFormRectangleTwitterLogo {
@@ -247,7 +247,7 @@
     height: 30px;
     left: 280px;
     top: 1051px;
-    background: url(iconfinder_2018_social_media_popular_app_logo_twitter_3225183.png);
+    background-image: url(./iconfinder_2018_social_media_popular_app_logo_twitter_3225183\ 2.png);
 }
 
 .welcomeSectionFormRectangleMediumLogo {
@@ -256,7 +256,7 @@
     height: 30px;
     left: 280px;
     top: 1185px;
-    background: url(iconfinder_Circled_Medium_svg5_5279113.png);
+    background-image: url(./iconfinder_Circled_Medium_svg5_5279113\ 1.png);
 }
 
 .welcomeSectionFormCancelRectangle {
@@ -272,6 +272,7 @@
     line-height: 33px;
     color: #3F3D56;
     cursor: pointer;
+    border-style: none;
 }
 
 .welcomeSectionFormSubmitRectangle {
@@ -283,6 +284,7 @@
     background: #7C639F;
     border-radius: 15px;
     cursor: pointer;
+    border-style: none;
 }
 
 .welcomeSectionFormSubmitRectangleText {

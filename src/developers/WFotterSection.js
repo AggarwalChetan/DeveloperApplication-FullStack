@@ -4,7 +4,7 @@ function WelcomeFotterSection(props){
     return(
         <div>
             <div className={styles.welcomeFooterRectangle}></div>
-            <div className={styles.welcomeFotterText}>Made by Chetan</div>
+            <div className={styles.welcomeFotterText}>Made with <img className={styles.welcomeFooterImage}/> by Chetan</div>
         </div>
     );
 }
