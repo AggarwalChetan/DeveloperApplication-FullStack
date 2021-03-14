@@ -13,14 +13,17 @@ function WelcomeSectionForm(){
             <div className={styles.welcomeSectionForm}></div>
             <div className={styles.welcomeSectionFormText}>Add developer profile</div>
             <div className={styles.welcomeSectionFormTopDivider}></div>
-            <WelcomeSectionGithub/>           
-            <WelcomeSectionLinkedIn/>
-            <WelcomeSectionCodeChef/>
-            <WelcomeSectionHackerrank/>
-            <WelcomeSectionTwitter/>
-            <WelcomeSectionMedium/>
-            <div className={styles.welcomeSectionFormBottomDivider}></div>
-            <WelcomeSectionFormSubmitBar/>
+            <form action="/api/" method="post"> 
+                <WelcomeSectionGithub/>           
+                <WelcomeSectionLinkedIn/>
+                <WelcomeSectionCodeChef/>
+                <WelcomeSectionHackerrank/>
+                <WelcomeSectionTwitter/>
+                <WelcomeSectionMedium/>
+                <WelcomeSectionFormSubmitBar/>
+            </form>
+            
+            <div className={styles.welcomeSectionFormBottomDivider}></div> 
         </div>
     );
 }

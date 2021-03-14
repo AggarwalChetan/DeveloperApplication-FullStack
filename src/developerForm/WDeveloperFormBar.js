@@ -13,8 +13,8 @@ function WelcomeSectionFormSubmitBar() {
     return (
         <div>
             <button className={styles.welcomeSectionFormCancelRectangle} onClick={redirectToDevelopers}>Cancel</button>
-            <button className={styles.welcomeSectionFormSubmitRectangle}></button>
-            <div className={styles.welcomeSectionFormSubmitRectangleText} onClick={api}>Submit</div>
+            <div className={styles.welcomeSectionFormSubmitRectangle}></div>
+            <input className={styles.welcomeSectionFormSubmitRectangleText} type="submit" value="Submit"></input>
         </div>
     );
 }
