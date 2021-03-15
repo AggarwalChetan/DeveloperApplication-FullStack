@@ -14,7 +14,6 @@ function WelcomeSectionFormSubmitBar() {
         <div>
             <button className={styles.welcomeSectionFormCancelRectangle} onClick={redirectToDevelopers}>Cancel</button>
             <div className={styles.welcomeSectionFormSubmitRectangle}></div>
-            <input className={styles.welcomeSectionFormSubmitRectangleText} type="submit" value="Submit"></input>
         </div>
     );
 }

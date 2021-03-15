@@ -6,23 +6,21 @@ import WelcomeSectionHackerrank from './WSHackerrank';
 import WelcomeSectionTwitter from './WSTwitter';
 import WelcomeSectionMedium from './WSMedium';
 import WelcomeSectionFormSubmitBar from './WDeveloperFormBar';
-
+import WelcomeSectionDeveloperFormData from './WSBDeveloperFormData';
 function WelcomeSectionForm(){
     return (
         <div>
             <div className={styles.welcomeSectionForm}></div>
             <div className={styles.welcomeSectionFormText}>Add developer profile</div>
             <div className={styles.welcomeSectionFormTopDivider}></div>
-            <form action="/api/" method="post"> 
-                <WelcomeSectionGithub/>           
-                <WelcomeSectionLinkedIn/>
-                <WelcomeSectionCodeChef/>
-                <WelcomeSectionHackerrank/>
-                <WelcomeSectionTwitter/>
-                <WelcomeSectionMedium/>
-                <WelcomeSectionFormSubmitBar/>
-            </form>
-            
+            <WelcomeSectionGithub/>           
+            <WelcomeSectionLinkedIn/>
+            <WelcomeSectionCodeChef/>
+            <WelcomeSectionHackerrank/>
+            <WelcomeSectionTwitter/>
+            <WelcomeSectionMedium/>
+            <WelcomeSectionFormSubmitBar/>
+            <WelcomeSectionDeveloperFormData/>
             <div className={styles.welcomeSectionFormBottomDivider}></div> 
         </div>
     );
