@@ -18,7 +18,7 @@ class WelcomeSectionDeveloperFormData extends React.Component{
     }
 
     handleSubmit = (event) => {
-        if(this.state.github_id === "" || " "){
+        if(this.state.github_id === "" || this.state.github_id === " "){
             alert("Github Id Required");
         }
 
@@ -39,7 +39,7 @@ class WelcomeSectionDeveloperFormData extends React.Component{
             },
             body: JSON.stringify(data)
         });
-
+        
         // In order to disable the default behaviour of form
         event.preventDefault();
     };
