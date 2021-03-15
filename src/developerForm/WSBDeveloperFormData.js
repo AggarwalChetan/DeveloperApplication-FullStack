@@ -1,4 +1,5 @@
 import React from 'react';
+import { Redirect } from 'react-router-dom';
 import styles from './WS.module.css';
 
 class WelcomeSectionDeveloperFormData extends React.Component{
@@ -18,8 +19,13 @@ class WelcomeSectionDeveloperFormData extends React.Component{
     }
 
     handleSubmit = (event) => {
+
+        // In order to disable the default behaviour of form
+        event.preventDefault();
+        
         if(this.state.github_id === "" || this.state.github_id === " "){
             alert("Github Id Required");
+            return;
         }
 
         const data = { 
@@ -38,12 +44,9 @@ class WelcomeSectionDeveloperFormData extends React.Component{
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(data)
-        });
-        
-        // In order to disable the default behaviour of form
-        event.preventDefault();
+        }).then(window.location.href = '/');
     };
-
+    
     render(){
         return(
             <form onSubmit={this.handleSubmit}>
