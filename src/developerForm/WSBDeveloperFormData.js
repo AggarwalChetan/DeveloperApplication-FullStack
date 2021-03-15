@@ -18,6 +18,10 @@ class WelcomeSectionDeveloperFormData extends React.Component{
     }
 
     handleSubmit = (event) => {
+        if(this.state.github_id === "" || " "){
+            alert("Github Id Required");
+        }
+
         const data = { 
             github_id:this.state.github_id,
             hackerrank_id:this.state.hackerrank_id,
@@ -27,9 +31,6 @@ class WelcomeSectionDeveloperFormData extends React.Component{
             codechef_id:this.state.codechef_id
         };
 
-        console.log(this.state);
-
-
         fetch('/api', {
             method : 'POST',
             headers: {
@@ -37,7 +38,10 @@ class WelcomeSectionDeveloperFormData extends React.Component{
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(data)
-        })
+        });
+
+        // In order to disable the default behaviour of form
+        event.preventDefault();
     };
 
     render(){
