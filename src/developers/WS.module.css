@@ -87,7 +87,6 @@
     font-size: 24px;
     line-height: 33px;
     color: #3F3D56;
-    font-display: hide;
 }
 
 .welcomeBodyBottomFont {
@@ -189,5 +188,64 @@
     background: #FFFFFF;
     background-image: url(./favorite-24px.svg);
     background-repeat: no-repeat;
-    
+}
+
+.welcomeBodyDeveloperNameFormat {
+    position: absolute;
+    width: 98px;
+    height: 49px;
+    left: 358px;
+    top: 1027px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #9F8E63;
+}
+
+.welcomeSectionFormCancelRectangle {
+    position: absolute;
+    width: 74px;
+    height: 33px;
+    left: 845px;
+    top: 1445px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3F3D56;
+    cursor: pointer;
+    border-style: none;
+}
+
+.modalFormat {
+    position: relative;
+    width: 1040px;
+    height: 1200px;
+    left: 200px;
+    top: 333px;
+    background: #FFFFFF;
+}
+
+.welcomeSectionFormSubmitRectangle {
+    position: absolute;
+    width: 175px;
+    height: 60px;
+    left: 1002px;
+    top: 1434px;
+    background: #7C639F;
+    border-radius: 15px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.welcomeSection {
+    position: absolute;
+    width: 1440px;
+    height: 2214px;
+    left: 0px;
+    top: 0px;
+    background: rgba(196, 196, 196, 0.53);
 }

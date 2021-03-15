@@ -1,21 +1,3 @@
-.welcomeSection {
-    position: absolute;
-    width: 1440px;
-    height: 2258px;
-    left: 0px;
-    top: 0px;
-    background: rgba(196, 196, 196, 0.53);
-}
-
-.welcomeSectionForm {
-    position: absolute;
-    width: 1040px;
-    height: 1200px;
-    left: 200px;
-    top: 333px;
-    background: #FFFFFF;
-}
-
 .welcomeSectionFormText {
     position: absolute;
     width: 318px;
@@ -48,6 +30,20 @@
     background: #D0CDE1;
 }
 
+.welcomeSectionFormSubmitRectangleText {
+    position: absolute;
+    width: 79px;
+    height: 33px;
+    left: 1050px;
+    top: 1448px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 .welcomeSectionFormRectangleGithub {
     position: absolute;
     width: 596px;
@@ -257,47 +253,4 @@
     left: 280px;
     top: 1185px;
     background-image: url(./iconfinder_Circled_Medium_svg5_5279113\ 1.png);
-}
-
-.welcomeSectionFormCancelRectangle {
-    position: absolute;
-    width: 74px;
-    height: 33px;
-    left: 845px;
-    top: 1445px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 33px;
-    color: #3F3D56;
-    cursor: pointer;
-    border-style: none;
-}
-
-.welcomeSectionFormSubmitRectangle {
-    position: absolute;
-    width: 175px;
-    height: 60px;
-    left: 1002px;
-    top: 1434px;
-    background: #7C639F;
-    border-radius: 15px;
-    cursor: pointer;
-    border-style: none;
-}
-
-.welcomeSectionFormSubmitRectangleText {
-    position: absolute;
-    width: 79px;
-    height: 33px;
-    left: 1050px;
-    top: 1448px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 33px;
-    color: #FFFFFF;
-    cursor: pointer;
 }
